@@ -19,7 +19,7 @@ function Bichvala() {
      <button className='btn1'><img src={fashion} alt=""  className='hdr2'/><br />Fashion</button>
      <button className='btn1'><img src={toys} alt=""  className='hdr2'/><br />Toys</button>
      <button className='btn1'><img src={grocery} alt=""  className='hdr2'/><br />Grocery</button>
-     <button className='btn1'><img src={home} alt=""  className='hdr2'/><br />Grocery</button>
+     <button className='btn1'><img src={home} alt=""  className='hdr2'/><br />Home</button>
      
     
   </nav>
