@@ -23,7 +23,7 @@ function Bichvala() {
      
     
   </nav>
-  
+  <div style={{height:'30em'}} className='bg-light'></div>
   <div className='container bg-light' style={{height:'20em',marginBlock:'5% ',borderRadius:'1em'}}></div>
   <div className='container bg-light' style={{height:'20em',marginBlock:'5%',borderRadius:'1em'}}></div>
   <div className='container bg-light' style={{height:'20em',marginBlock:'5%',borderRadius:'1em'}}></div>
