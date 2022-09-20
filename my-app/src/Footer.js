@@ -12,7 +12,7 @@ function Footer() {
                     <li><a>Careers</a></li>
                     <li><a>Stories</a></li>
                     <li><a>Press</a></li>
-                    <li><a>Flipkart</a></li>
+                    <li><a>ShopHub</a></li>
                 </ul>
             </div>
             <div class="" style={{borderRight:"2px solid red"}}>
@@ -50,7 +50,7 @@ function Footer() {
                 <ul style={{listStyle:"none",margin: "0", padding: "10px",fontSize:"15px"}}>
                     <li><b>Mail Us:</b></li>
 					<br></br>
-                    <li>Flipkart Internet Private Limited,
+                    <li>ShopHub Internet Private Limited,
                         Buildings Alyssa, Begonia &
                         Clove Embassy Tech Village,
                         Outer Ring Road, Devarabeesanahalli Village,
@@ -62,7 +62,7 @@ function Footer() {
                 <ul style={{listStyle:"none",fontSize:"15px",margin: "0", padding: "10px"}}>
                     <li><b>Mail Us:</b></li>
 					<br></br>
-                    <li>Flipkart Internet Private Limited,
+                    <li>Shophub Internet Private Limited,
                         Buildings Alyssa, Begonia &
                         Clove Embassy Tech Village,
                         Outer Ring Road, Devarabeesanahalli Village,
