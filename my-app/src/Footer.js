@@ -48,7 +48,7 @@ function Footer() {
             </div>
             <div class="" style={{color:"white",width:"200px",height:"200px",borderRight:"2px solid red"}}>
                 <ul style={{listStyle:"none",margin: "0", padding: "10px",fontSize:"15px"}}>
-                    <li><b>Mail Us:</b></li>
+                    <li><b>Location</b></li>
 					<br></br>
                     <li>ShopHub Internet Private Limited,
                         Buildings Alyssa, Begonia &
@@ -60,12 +60,14 @@ function Footer() {
             </div>
             <div class="" style={{color:"white",width:"200px",height:"200px"/*,borderRight:"2px solid red"*/}}>
                 <ul style={{listStyle:"none",fontSize:"15px",margin: "0", padding: "10px"}}>
-                    <li><b>Mail Us:</b></li>
+                    <li><b>Mail Us</b></li>
 					<br></br>
-                    <li>Shophub Internet Private Limited,
-                        Buildings Alyssa, Begonia &
-                        Clove Embassy Tech Village,
-                        Outer Ring Road, Devarabeesanahalli Village,
+                    <li><b>Email</b><br />
+                        shophub2104@gmail.com <br /><br />
+                        <b>Contact</b><br />
+                        +91-7658021562<br />
+
+                        
                         Bengaluru, 560103, Karnataka, India
                     </li>
                 </ul>
