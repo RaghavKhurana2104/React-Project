@@ -6,6 +6,8 @@ import fashion from './Photos/fashion.png'
 import toys from './Photos/toys.png'
 import grocery from './Photos/grocery.png'
 import mobile from './Photos/iphone.png'
+import home from './Photos/home.png'
+
 import './Middle.css'
 function Bichvala() {
   return (
@@ -17,7 +19,7 @@ function Bichvala() {
      <button className='btn1'><img src={fashion} alt=""  className='hdr2'/><br />Fashion</button>
      <button className='btn1'><img src={toys} alt=""  className='hdr2'/><br />Toys</button>
      <button className='btn1'><img src={grocery} alt=""  className='hdr2'/><br />Grocery</button>
-   
+     <button className='btn1'><img src={home} alt=""  className='hdr2'/><br />Grocery</button>
      
     
   </nav>
