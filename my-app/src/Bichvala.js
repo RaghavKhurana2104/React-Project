@@ -12,7 +12,7 @@ import './Middle.css'
 function Bichvala() {
   return (
    <div>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark  justify-content-center" >
+  <nav class="navbar navbar-expand-sm navbar-dark bg-light  justify-content-center" >
     
     <button className='btn1' ><img src={mobile} alt="" className='hdr2' /><br />Smartphones </button>
      <button className='btn1'><img src={headphone} alt=""  className='hdr2'/><br />Electronics</button>
@@ -23,7 +23,7 @@ function Bichvala() {
      
     
   </nav>
-  <div style={{height:'30em'}} className='bg-light'></div>
+  <div style={{height:'30em',marginTop:'0.5em'}} className='bg-light'></div>
   <div className='container bg-light' style={{height:'20em',marginBlock:'5% ',borderRadius:'1em'}}></div>
   <div className='container bg-light' style={{height:'20em',marginBlock:'5%',borderRadius:'1em'}}></div>
   <div className='container bg-light' style={{height:'20em',marginBlock:'5%',borderRadius:'1em'}}></div>
