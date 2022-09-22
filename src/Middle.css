@@ -1,0 +1,31 @@
+#header2{
+    height :3em;
+    
+}
+
+.hdr2{
+    width:10em;
+    height: 10em;
+}
+
+.btn1{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 0.5%;
+    border: none;
+    border-radius: 1em;
+    background-color: #f8f9fa;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+.btn1:hover{
+    color: red;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.35) 0px 1px 3px;
+}
+
+
+
+
+
+
