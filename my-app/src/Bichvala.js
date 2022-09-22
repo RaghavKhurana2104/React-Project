@@ -75,13 +75,12 @@ import React, { Component } from 'react'
        
       </Carousel.Item>
     </Carousel></div>
-  <div className='bg-light' style={{height:'20em',marginBlock:'1% '}}></div>
-  <div className='bg-light' style={{height:'20em',marginBlock:'1%'}}></div>
-  <div className='bg-light' style={{height:'20em',marginBlock:'1%'}}></div>
-  <div className='bg-light' style={{height:'20em',marginBlock:'1%'}}></div>
-  <div className='bg-light' style={{height:'20em',marginBlock:'1%'}}></div>
-  <div className='bg-light' style={{height:'20em',marginBlock:'1%'}}></div>
-  <div className='bg-light' style={{height:'20em',marginBlock:'1%'}}></div>
+  <div className='bg-light' style={{height:'20em',marginBlock:'1% '}}><h1>Best Deals on Footwear</h1></div>
+  <div className='bg-light' style={{height:'20em',marginBlock:'1%'}}><h1>Our Top picks</h1></div>
+  <div className='bg-light' style={{height:'20em',marginBlock:'1%'}}><h1>Best choice of PowerBanks</h1></div>
+  <div className='bg-light' style={{height:'20em',marginBlock:'1%'}}><h1>Big Discounts</h1></div>
+  <div className='bg-light' style={{height:'20em',marginBlock:'1%'}}><h1>Best of Apple</h1></div>
+  <div className='bg-light' style={{height:'20em',marginBlock:'1%'}}><h1>Upcoming Deals</h1></div>
   </div> 
   )
 }
