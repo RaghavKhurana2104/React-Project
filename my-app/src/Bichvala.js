@@ -1,4 +1,4 @@
-import React from 'react'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -8,17 +8,24 @@ import toys from './Photos/toys.png'
 import grocery from './Photos/grocery.png'
 import mobile from './Photos/iphone.png'
 import home from './Photos/home.png'
-import ad1 from './Photos/ad1.jpg'
-import ad2 from './Photos/ad2.jpg'
-import ad3 from './Photos/ad3.jpg'
+import ad1 from './Photos/ad1.png'
+import ad2 from './Photos/ad2.png'
+import ad3 from './Photos/ad3.png'
+import ad4 from './Photos/ad4.png'
 
 import './Middle.css'
-function Bichvala() {
-  return (
-   <div>
+
+import React, { Component } from 'react'
+
+ class Bichvala extends Component {
+  render() {
+    return (
+      <div>
+
+    <div style={{height:'3.5em'}}></div>
   <nav class="navbar navbar-expand-sm navbar-dark bg-light  justify-content-center" >
     
-    <button className='btn1' ><img src={mobile} alt="" className='hdr2' /><br />Smartphones </button>
+    <button className='btn1'><img src={mobile} alt="" className='hdr2' /><br />Smartphones </button>
      <button className='btn1'><img src={headphone} alt=""  className='hdr2'/><br />Electronics</button>
      <button className='btn1'><img src={fashion} alt=""  className='hdr2'/><br />Fashion</button>
      <button className='btn1'><img src={toys} alt=""  className='hdr2'/><br />Toys</button>
@@ -40,7 +47,7 @@ function Bichvala() {
         <img
           className="d-block w-100"
           src={ad2}
-          style={{marginBlock:'3px'}}
+          
           alt="Second slide"
         />
 
@@ -56,16 +63,28 @@ function Bichvala() {
 
        
       </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={ad4}
+          
+          alt="Third slide"
+        />
+
+       
+      </Carousel.Item>
     </Carousel></div>
-  <div className='container bg-light 1' style={{height:'20em',marginBlock:'5% ',borderRadius:'1em'}}></div>
-  <div className='container bg-light 2' style={{height:'20em',marginBlock:'5%',borderRadius:'1em'}}></div>
-  <div className='container bg-light 3' style={{height:'20em',marginBlock:'5%',borderRadius:'1em'}}></div>
-  <div className='container bg-light' style={{height:'20em',marginBlock:'5%',borderRadius:'1em'}}></div>
-  <div className='container bg-light' style={{height:'20em',marginBlock:'5%',borderRadius:'1em'}}></div>
-  <div className='container bg-light' style={{height:'20em',marginBlock:'5%',borderRadius:'1em'}}></div>
-  <div className='container bg-light' style={{height:'20em',marginBlock:'5%',borderRadius:'1em'}}></div>
+  <div className='bg-light' style={{height:'20em',marginBlock:'1% '}}></div>
+  <div className='bg-light' style={{height:'20em',marginBlock:'1%'}}></div>
+  <div className='bg-light' style={{height:'20em',marginBlock:'1%'}}></div>
+  <div className='bg-light' style={{height:'20em',marginBlock:'1%'}}></div>
+  <div className='bg-light' style={{height:'20em',marginBlock:'1%'}}></div>
+  <div className='bg-light' style={{height:'20em',marginBlock:'1%'}}></div>
+  <div className='bg-light' style={{height:'20em',marginBlock:'1%'}}></div>
   </div> 
   )
 }
+ }
 
 export default Bichvala

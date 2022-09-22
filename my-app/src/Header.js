@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import img1 from './Photos/shophub4.png'
-import React from 'react'
+
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -10,22 +10,22 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import './Header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faCartShoppingFast, faMagnifyingGlass } from '@fortawesome/sharp-solid-svg-icons';
+import { faMagnifyingGlass } from '@fortawesome/sharp-solid-svg-icons';
 
 
 
+import React, { Component } from 'react'
 
-
-
-function Header() {
-  return (
-    <>
+ class Header extends Component {
+  render() {
+    return (
+      <>
     <nav >
         <div>
             
-        <Navbar id="nav1" expand="lg">
+        <Navbar  id="nav1" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#"><img className='logo' src={img1} alt="" /></Navbar.Brand>
+        <Navbar.Brand href="#"><img className='logo' src={img1} alt=""  /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -56,8 +56,8 @@ function Header() {
               
              
             </NavDropdown>
-            <Nav.Link href="#action1" style={{color:'white'}}><b>Home</b> </Nav.Link>
-            <Nav.Link href="#action2" style={{color:'white'}}><b>Contact_Us</b></Nav.Link>
+            <Nav.Link href="" style={{color:'white'}}><b>Home</b> </Nav.Link>
+            <Nav.Link href="" style={{color:'white'}}><b>Contact_Us</b></Nav.Link>
            
           </Nav>
         
@@ -69,6 +69,7 @@ function Header() {
   
 </>
   )
+}
 }
 
 export default Header

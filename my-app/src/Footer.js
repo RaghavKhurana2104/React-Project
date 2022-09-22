@@ -1,8 +1,11 @@
-import React from 'react'
 
-function Footer() {
-  return (
-    <div>
+import React, { Component } from 'react'
+
+ class Footer extends Component {
+  render() {
+    return (
+      <div>
+        
       <div class="div" style={{backgroundColor:"black",paddingTop:"10px",display:"flex",flexWrap:"wrap",lineHeight:"20px",justifyContent:"space-around"}}>
             <div class="" style={{borderRight:"2px solid red",width:"100px"}}>
                 <ul style={{color:"white",fontSize:"15px",float:"center",listStyle:"none",display:"inline-block",margin: "0", padding: "10px"}}>
@@ -63,7 +66,7 @@ function Footer() {
                     <li><b>Mail Us</b></li>
 					<br></br>
                     <li><b>Email</b><br />
-                        shophub2104@gmail.com <br /><br />
+                        <a href="mailto:shophub2104@gmail.com">shophub2104@gmail.com</a> <br /><br />
                         <b>Contact</b><br />
                         +91-7658021562<br />
 
@@ -74,8 +77,9 @@ function Footer() {
             </div>
         </div>
     </div>
-  )
-}
+     
+      )
+    }
+  }
 
 export default Footer
-
