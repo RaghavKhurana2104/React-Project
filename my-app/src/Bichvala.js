@@ -1,12 +1,16 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import headphone from './Photos/headphone.png'
+import Carousel from 'react-bootstrap/Carousel';
 
+import headphone from './Photos/headphone.png'
 import fashion from './Photos/fashion.png'
 import toys from './Photos/toys.png'
 import grocery from './Photos/grocery.png'
 import mobile from './Photos/iphone.png'
 import home from './Photos/home.png'
+import ad1 from './Photos/ad1.jpg'
+import ad2 from './Photos/ad2.jpg'
+import ad3 from './Photos/ad3.jpg'
 
 import './Middle.css'
 function Bichvala() {
@@ -23,10 +27,39 @@ function Bichvala() {
      
     
   </nav>
-  <div style={{height:'30em',marginTop:'0.5em'}} className='bg-light'></div>
-  <div className='container bg-light' style={{height:'20em',marginBlock:'5% ',borderRadius:'1em'}}></div>
-  <div className='container bg-light' style={{height:'20em',marginBlock:'5%',borderRadius:'1em'}}></div>
-  <div className='container bg-light' style={{height:'20em',marginBlock:'5%',borderRadius:'1em'}}></div>
+  <div style={{marginTop:'0.5em'}} className='bg-light'><Carousel>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={ad1}
+          alt="First slide"
+        />
+       
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={ad2}
+          style={{marginBlock:'3px'}}
+          alt="Second slide"
+        />
+
+        
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={ad3}
+          
+          alt="Third slide"
+        />
+
+       
+      </Carousel.Item>
+    </Carousel></div>
+  <div className='container bg-light 1' style={{height:'20em',marginBlock:'5% ',borderRadius:'1em'}}></div>
+  <div className='container bg-light 2' style={{height:'20em',marginBlock:'5%',borderRadius:'1em'}}></div>
+  <div className='container bg-light 3' style={{height:'20em',marginBlock:'5%',borderRadius:'1em'}}></div>
   <div className='container bg-light' style={{height:'20em',marginBlock:'5%',borderRadius:'1em'}}></div>
   <div className='container bg-light' style={{height:'20em',marginBlock:'5%',borderRadius:'1em'}}></div>
   <div className='container bg-light' style={{height:'20em',marginBlock:'5%',borderRadius:'1em'}}></div>
