@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import img1 from './Photos/shophub4.png'
-import React from 'react'
+
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -14,16 +14,16 @@ import { faMagnifyingGlass } from '@fortawesome/sharp-solid-svg-icons';
 
 
 
+import React, { Component } from 'react'
 
-
-
-function Header() {
-  return (
-    <>
+ class Header extends Component {
+  render() {
+    return (
+      <>
     <nav >
         <div>
             
-        <Navbar id="Header1" id="nav1" expand="lg">
+        <Navbar  id="nav1" expand="lg">
       <Container fluid>
         <Navbar.Brand href="#"><img className='logo' src={img1} alt=""  /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -69,6 +69,7 @@ function Header() {
   
 </>
   )
+}
 }
 
 export default Header

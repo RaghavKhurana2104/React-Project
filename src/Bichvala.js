@@ -1,4 +1,4 @@
-import React from 'react'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -14,9 +14,14 @@ import ad3 from './Photos/ad3.png'
 import ad4 from './Photos/ad4.png'
 
 import './Middle.css'
-function Bichvala() {
-  return (
-   <div>
+
+import React, { Component } from 'react'
+
+ class Bichvala extends Component {
+  render() {
+    return (
+      <div>
+
     <div style={{height:'3.5em'}}></div>
   <nav class="navbar navbar-expand-sm navbar-dark bg-light  justify-content-center" >
     
@@ -80,5 +85,6 @@ function Bichvala() {
   </div> 
   )
 }
+ }
 
 export default Bichvala
